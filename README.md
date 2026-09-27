@@ -37,7 +37,7 @@ Two independent approaches tackled KNN classification on the wine dataset, using
 ### Recommendation System
 
 
-Two independent approaches built a feed recommender from the chickwts dataset, using the same core pipeline: group weight by feed, standardize, reduce to a single PCA component, and recommend similar feeds via cosine similarity. Both produced comparable groupings, agreeing closely on which feeds are most similar to one another, though the two approaches differed in what was fed into PCA — one used only the average weight per feed as input, while the other used a fuller profile per feed (mean, median, standard deviation, min, max).
+Two independent approaches built a feed recommender from the chickwts dataset, using the same core pipeline: group weight by feed, standardize, reduce to a single PCA component, and recommend similar feeds via cosine similarity. Both produced comparable groupings, agreeing closely on which feeds are most similar to one another, though the two approaches differed in what was fed into PCA, one used only the average weight per feed as input, while the other used a fuller profile per feed (mean, median, standard deviation, min, max).
 
 Both approaches share a structural limitation: reducing to one PCA component means cosine similarity can only return +1 or -1, giving a binary similar/dissimilar split rather than a graded similarity score. Despite the difference in input features, both agree that feeds separate into a clear high-weight group and a low-weight group, with recommendations landing consistently across both approaches.
 
