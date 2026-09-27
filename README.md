@@ -9,21 +9,22 @@
 **Clustering.** Grouping U.S. states by violent crime severity shows how natural groupings can be surfaced in unlabeled data. Useful for regional risk profiling, policy, or resource allocation.
 
 ## 2. File Structure
+```
 Grp4_DataVine_Analytics/
 ├── README.md
 ├── LICENSE
 ├── classification/
-│ ├── KNN_Classification.ipynb
-│ ├── wine.KNN_classification.ipynb
-│ └── wine.csv
+│   ├── KNN_Classification.ipynb
+│   ├── wine.KNN_classification.ipynb
+│   └── wine.csv
 ├── clustering/
-│ ├── clustering.ipynb
-│ └── USArrests.csv
+│   ├── clustering.ipynb
+│   └── USArrests.csv
 └── recommendation_systems/
-├── Chickwts_recommendationsystems.ipynb
-├── Dorcas_Chickwts_Recommendation.ipynb
-└── chickwts.csv
-
+    ├── Chickwts_recommendationsystems.ipynb
+    ├── Dorcas_Chickwts_Recommendation.ipynb
+    └── chickwts.csv
+```
 
 Each folder contains the notebook(s) and dataset for that task. Where a task was completed independently by two group members, both notebooks are kept side by side rather than merged, to preserve each person's full approach.
 
